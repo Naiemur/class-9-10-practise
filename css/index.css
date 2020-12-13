@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Amatic SC', cursive; */
+
+/* font-family: 'Nunito', sans-serif; */
+
+/* font-family: 'Open Sans', sans-serif; */
+       /* ======google-fonts===== */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Nunito', sans-serif;
+}
+.section-padding-top{
+    padding-top: 100px;
+}
+.section-padding-bottom{
+    padding-bottom: 100px;
+}
+.container{
+    width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container:before,
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* all-header-css-start */
+header{
+    background-color: #85CCC5;
+}
+.col-25{
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+.col-75{
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+}
+.main-menu{
+    float: right;
+    padding: 25px 0;
+}
+.main-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.logo img{
+    height: 85px;
+}
+/* all-header-css-end */
+.home{
+   background: url(../images/h1-slide-1.jpg); 
+   background-size:cover ;
+   background-repeat:no-repeat ;
+   background-position:center ;
+   height: 100vh;
+}
+.home-content{
+    padding: 100px 0;
+}
+.home-content h1{
+    font-size: 120px;
+    color: #85CCC5;
+    font-family: 'Nunito', sans;
+    line-height: 120px;
+}
+.home-content h6{
+    font-size: 20px;
+    color: #555555;
+    font-family: 'Open Sans', sans;
+    font-weight: 300;
+    padding: 58px 0;
+    
+}
+.btn{
+    display: inline-flex;
+}
+.btn a{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    background:  #Fed072;
+    color: #212121;
+    text-decoration: none;
+}
+.btn a:hover{
+    color: #fff;
+}
+.col-33{
+    width: 33%;
+    padding: 0 15px;
+    float: left;
+}
+.catagory-box-1{
+    background: url(../images/h1-box-1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 25px;
+}
+.catagory-box-2{
+    background: url(../images/h1-box-2.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 25px;
+}
+.catagory-box-3{
+    background: url(../images/h1-box-3.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 25px;
+}
+.catagory-box-1 h3{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 40px; 
+    color: #fff;
+
+}
+.catagory-box-2 h3{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 40px; 
+    color: #fff;
+
+}
+.catagory-box-3 h3{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 40px; 
+    color: #fff;
+
+}
+.catagory-box-1 p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito', serif;
+    color: #fff;
+}
+.catagory-box-2 p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito', serif;
+    color: #fff;
+}
+.catagory-box-3 p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito', serif;
+    color: #fff;
+}
+.col-p-0 .col-33{
+    padding: 0;
+}
+section.atagorcy-all-box{
+    margin-top: -80px;
+}
+.catagory-itemi-1 p{
+    clear: both;
+}
+.catagory-item-1{
+    padding: 0 80px 68px 0;
+}
+.learning{
+    background: url(../images/h1-kids.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.learning .col-50{
+    float: right;
+}
+.learning-box{
+    background: #FCCE71;
+    padding: 68px 40px;
+}
+.learning-box h3{
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family:'Amatic SC', cursive ;
+   
+}
+.learning-box p{
+    font-size: 14px;
+    color: #313131;
+    padding: 8px 0;
+}
+.learning-box .btn a{
+    background: #fff;
+    color: #212121;
+}
+.learning-box .btn a:hover{
+    background: #212121;
+    color: #fff;
+}
